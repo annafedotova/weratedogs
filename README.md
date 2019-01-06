@@ -8,12 +8,36 @@ It was started in November, 2015 and has grown to more than 7.5 million follower
 
 ## Questions
 
-We will analyze various trends and patterns, such as:
+First step of the project is to wrangle the messy data obtained from multiple sources.
+After the cleaning is performed, various trends and patterns will be analyzed, such as:
 
 - Evolution of the account in terms of amout of tweets, retweets and likes per tweet
 - Rating distribution and evolution over time
 - Ratings, retweets and likes by dog breed
 - Most liked and retweeted dogs
+
+## Repository Structure
+
+**Input Files**:
+
+- twitter-archive-enhanced-2.csv
+- tweet-json.txt
+- image-predictions.tsv
+
+**Output Files (after data wrangling)**:
+
+- twitter_archive_master.csv
+- tweets_archive.csv
+- dogs_archive.csv
+
+**Data Wrangling and Analysis Code**:
+
+- wrangle_act.ipynb
+
+**Final Reports**:
+
+- wrangle_report.html: describes the wrangling process steps
+- act_report.html: presents the main insights obtained from the analysis of cleaned data
 
 
 ## Most Liked Doggo
